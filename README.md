@@ -30,6 +30,7 @@ if [ -d "$DIRETORIO" ]; then
         mvn clean
         mvn package
         java -jar "$DIRETORIO//target//$ARQUIVO"
+        
     fi
 else
     echo "Não foi possível encontrar o diretório."

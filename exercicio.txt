@@ -8,3 +8,33 @@ chame qualquer app console que você gerou o arquivo .jar
 Se você não tiver o .jar da aplicação, o shellscript criado deve 
 gerar o build do maven e depois chamar o .jar
 
+C:\\Users\\barro\\Downloads\\petshop
+
+petshop-0.0.1-SNAPSHOT.jar
+
+curl --location --request GET 'localhost:8080/petshop/animais'
+
+curl --location --request GET 'localhost:8080/petshop/animais/2'
+
+curl --location --request POST 'localhost:8080/petshop/animais' \
+--data-raw '{
+    "nome": "Paçoca",
+    "idade": 3,
+    "peso": 5,
+    "cliente": {
+        "id": 1
+        }
+}'
+
+curl --location --request PUT 'localhost:8080/petshop/animais/2' \
+--data-raw ' {
+    "id": 2,
+    "nome": "Thor",
+    "idade": 6,
+    "peso": 10,
+    "cliente": {
+        "id": 2
+    }
+}'
+
+curl --location --request DELETE 'localhost:8080/petshop/animais/5'
