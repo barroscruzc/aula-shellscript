@@ -1,0 +1,1 @@
+echo "olá alunos" > teste.txt
