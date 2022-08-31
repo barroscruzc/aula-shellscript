@@ -1,6 +1,6 @@
 # aula-shellscript
 
-Nesta aula ministrada pelo Prof. Danilo Aparecido, no bootcamp "If Black, Then Code" (IBM & Gama Academy), testamos comandos básicos via terminal GitBash para codar ahellscripts para automatizar criação, alteração e execução de arquivos.
+Nesta aula ministrada pelo Prof. Danilo Aparecido, no bootcamp "If Black, Then Code" (IBM & Gama Academy), testamos comandos básicos via terminal GitBash para codar shellscripts para automatizar criação, alteração e execução de arquivos.
 
 ## Exercicio 1
 ### Enunciado
