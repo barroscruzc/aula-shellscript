@@ -9,7 +9,12 @@ Crie um programa no Shell script que solicite o nome de um diretório e o nome d
 Se você não tiver o .jar da aplicação, o shellscript criado deve gerar o build do maven e depois chamar o .jar
 
 ### Resolução da aluna: 
-`Observação` O diretório deve ser escrito com duas barras. Exemplo: C:\\\Users\\\seunome\\\Downloads\\\projeto
+- `Shellscript` 
+    - Arquivo: '7-exercicio.sh'
+- `Observações` 
+    - O diretório deve ser escrito com duas barras. Exemplo: C:\\\Users\\\seunome\\\Downloads\\\projeto
+    - Antes de executar o shellscript, é necessário conceder permissão. Basta executar o seguinte código no terminal GitBash aberto no mesmo diretório do arquivo: chmod +x 7-exercicio.sh 
+
 ```shel
 echo "Escreva o diretório do arquivo"
 read DIRETORIO
