@@ -17,8 +17,7 @@ curl --location --request GET 'localhost:8080/petshop/animais'
 curl --location --request GET 'localhost:8080/petshop/animais/2'
 
 curl --location --request POST 'localhost:8080/petshop/animais' \
---data-raw '{
-    "nome": "Paçoca",
+--data-raw '{   "nome": "Paçoca",
     "idade": 3,
     "peso": 5,
     "cliente": {
